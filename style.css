@@ -1,0 +1,43 @@
+body {
+   background: lightblue;
+}
+.login1_div , .login2_div {
+   padding:24px 24px 24px;
+   float:none;
+   background-color:purple;
+   border:3px solid aqua;
+   mix-blend-mode: normal;
+   -webkit-box-shadow: 0 0 30px 10px rgb(0 0 0 / 50%);
+    box-shadow: 0 0 30px 10px rgb(0 0 0 / 50%);
+}
+h2 {
+    color:aqua;
+    font-family: 'Play';
+}
+input {
+    -webkit-text-fill-color: #7623df;
+    font-family:'Play';
+    font-weight: 700;
+}
+
+button {
+    background:#7623df;
+    border:3px solid aqua;
+    -webkit-box-shadow:0 6px 0 #00fff9;
+    box-shadow: 0 6px 0 #00fff9;
+    color:aqua;
+}
+h1 {
+    font-family: 'Bukhari Script';
+}
+#n1,#n2 {
+  width:50%;
+}
+#output {
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}

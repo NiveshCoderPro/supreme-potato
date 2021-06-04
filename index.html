@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Math Quiz</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+            integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+            integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+            integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+            crossorigin="anonymous"></script>
+            <link rel = "stylesheet" href = "style.css">
+            <script src = "main.js"></script>
+    </head>
+    <body>
+        <center>
+           
+            <h1 style = "text-align: center;">Math Quiz</h1>
+            <div class = "col-lg-4 col-sm-8 col-xs-11 login1_div">
+                <div>
+                    <h2>Player 1 User Name</h2>
+                <input type = "text" id = "Player1_input" class = "form-control" placeholder= "Player 1 Name">
+                </div>    
+                <br>
+            </div>
+            <br>
+            <div class = "col-lg-4 col-sm-8 col-xs-11 login2_div">
+              <div>
+                  <h2>Player 2 User Name</h2>
+                  <input type = "text" id = "Player2_input" class = "form-control" placeholder="Player 2 Name">
+
+              </div>
+            </div>
+            <br>
+            <button onclick = "login()" class = "btn btn-danger" style = "width:10%;">Login</button>
+        </center>
+    </body>
+    <script src = "quiz.js"></script>
+</html>
